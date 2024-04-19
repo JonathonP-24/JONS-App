@@ -1,0 +1,40 @@
+body {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* Light text color */
+  }
+  
+  .navbar {
+    background-color: #212121; /* Darker navbar background color */
+  }
+  
+  .navbar-dark .navbar-brand {
+    color: #ffffff; /* Light color for navbar brand */
+  }
+  
+  .nav-link {
+    color: #ffffff; /* Light color for navbar links */
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-color: #1f1f1f; /* Darker hero section background color */
+  }
+  
+  .hero h1, .hero p {
+    color: #ffffff; /* Light text color */
+  }
+  
+  /* About, Collections, Store, Contact Section Styles */
+  .section {
+    background-color: #1a1a1a; /* Dark section background color */
+  }
+  
+  .section h2, .section p, .section a {
+    color: #ffffff; /* Light text color */
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #111111; /* Dark footer background color */
+    color: #ffffff; /* Light text color */
+  }
