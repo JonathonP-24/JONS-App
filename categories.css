@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.product-img{
+    display: grid;
+    grid-template-columns: repeat(1,auto-fill(1160px,1fr));
+    justify-content: center;
+}
+h1{
+    padding-top: 110px;
+    margin:20px;
+    text-align: center;
+}
+hr{
+    
+    max-width: 200px;
+    border:1px solid #000000;
+}
+#name-fashion{
+    color:#000000;
+}
+.trends-header, .main-head-of-color-gold{
+    color:#000000;
+}
+.trends-categories, .for-her, .for-him{
+    display:grid;
+    padding-left:50px;
+}
+.trends-categories{
+    grid-template-columns: repeat(3,1fr);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.for-her{
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 265px;
+    padding-right: 50px;
+}
+.for-him{
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 265px;
+    padding-right: 50px;
+}
+@media screen and (max-width:984px){
+    .trends-categories, .for-her, .for-him{
+        padding-right:20px;
+        padding-left:20px;
+    }
+}
